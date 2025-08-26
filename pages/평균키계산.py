@@ -48,9 +48,9 @@ average_height = {
 }
 
 if st.button('평균키 계산'):
-  if height in average_height:
-    if height > average_height:
-      st.write("당신의 키는 평균보다 큽니다.")
+    if height in average_height:
+        if height > average_height:
+          st.write("당신의 키는 평균보다 큽니다.")
     elif height < average_height:
       st.write("당신의 키는 평균보다 작습니다.")
     else:
